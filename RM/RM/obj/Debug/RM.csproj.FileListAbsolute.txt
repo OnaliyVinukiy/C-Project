@@ -11,6 +11,23 @@ C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Pro
 C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\obj\Debug\RM.csproj.CopyComplete
 C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\obj\Debug\RM.exe
 C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\obj\Debug\RM.pdb
+<<<<<<< HEAD
 C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\obj\Debug\RM.SampleAdd.resources
 C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\obj\Debug\RM.SampleView.resources
 C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\obj\Debug\RM.View.CategoryView.resources
+=======
+C:\Users\Acer\OneDrive - NSBM\Third Sem\C-Project\RM\RM\bin\Debug\RM.exe.config
+C:\Users\Acer\OneDrive - NSBM\Third Sem\C-Project\RM\RM\bin\Debug\RM.exe
+C:\Users\Acer\OneDrive - NSBM\Third Sem\C-Project\RM\RM\bin\Debug\RM.pdb
+C:\Users\Acer\OneDrive - NSBM\Third Sem\C-Project\RM\RM\bin\Debug\Guna.UI2.dll
+C:\Users\Acer\OneDrive - NSBM\Third Sem\C-Project\RM\RM\obj\Debug\RM.csproj.AssemblyReference.cache
+C:\Users\Acer\OneDrive - NSBM\Third Sem\C-Project\RM\RM\obj\Debug\RM.csproj.SuggestedBindingRedirects.cache
+C:\Users\Acer\OneDrive - NSBM\Third Sem\C-Project\RM\RM\obj\Debug\RM.frmLogin.resources
+C:\Users\Acer\OneDrive - NSBM\Third Sem\C-Project\RM\RM\obj\Debug\RM.Properties.Resources.resources
+C:\Users\Acer\OneDrive - NSBM\Third Sem\C-Project\RM\RM\obj\Debug\RM.csproj.GenerateResource.cache
+C:\Users\Acer\OneDrive - NSBM\Third Sem\C-Project\RM\RM\obj\Debug\RM.csproj.CoreCompileInputs.cache
+C:\Users\Acer\OneDrive - NSBM\Third Sem\C-Project\RM\RM\obj\Debug\RM.csproj.CopyComplete
+C:\Users\Acer\OneDrive - NSBM\Third Sem\C-Project\RM\RM\obj\Debug\RM.exe
+C:\Users\Acer\OneDrive - NSBM\Third Sem\C-Project\RM\RM\obj\Debug\RM.pdb
+C:\Users\Acer\OneDrive - NSBM\Third Sem\C-Project\RM\RM\obj\Debug\RM.frmMain.resources
+>>>>>>> 4384b97c6cfb78e7fd93fc6115a597af3aa933e8
