@@ -1,16 +1,3 @@
-C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C-Project\RM\RM\bin\Debug\RM.exe.config
-C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C-Project\RM\RM\bin\Debug\RM.exe
-C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C-Project\RM\RM\bin\Debug\RM.pdb
-C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C-Project\RM\RM\bin\Debug\Guna.UI2.dll
-C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C-Project\RM\RM\obj\Debug\RM.csproj.AssemblyReference.cache
-C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C-Project\RM\RM\obj\Debug\RM.csproj.SuggestedBindingRedirects.cache
-C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C-Project\RM\RM\obj\Debug\RM.frmLogin.resources
-C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C-Project\RM\RM\obj\Debug\RM.Properties.Resources.resources
-C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C-Project\RM\RM\obj\Debug\RM.csproj.GenerateResource.cache
-C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C-Project\RM\RM\obj\Debug\RM.csproj.CoreCompileInputs.cache
-C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C-Project\RM\RM\obj\Debug\RM.csproj.CopyComplete
-C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C-Project\RM\RM\obj\Debug\RM.exe
-C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C-Project\RM\RM\obj\Debug\RM.pdb
 C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\bin\Debug\RM.exe.config
 C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\bin\Debug\RM.exe
 C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\bin\Debug\RM.pdb
