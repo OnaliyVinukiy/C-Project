@@ -1,6 +1,6 @@
 ﻿namespace RM_System
 {
-    partial class Form1
+    partial class formMain
     {
         /// <summary>
         /// Required designer variable.
