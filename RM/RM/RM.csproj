@@ -125,18 +125,6 @@
     <Compile Include="SampleAdd.Designer.cs">
       <DependentUpon>SampleAdd.cs</DependentUpon>
     </Compile>
-    <Compile Include="Sample.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Sample.Designer.cs">
-      <DependentUpon>Sample.cs</DependentUpon>
-    </Compile>
-    <Compile Include="View\frmCategoryView.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\frmCategoryView.Designer.cs">
-      <DependentUpon>frmCategoryView.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -155,12 +143,6 @@
     </Compile>
     <EmbeddedResource Include="SampleAdd.resx">
       <DependentUpon>SampleAdd.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Sample.resx">
-      <DependentUpon>Sample.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="View\frmCategoryView.resx">
-      <DependentUpon>frmCategoryView.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -181,6 +163,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Model\" />
+    <Folder Include="View\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-search-64.png" />
