@@ -17,22 +17,12 @@ namespace RM
             InitializeComponent();
         }
 
-        public void label1_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
 
-        public virtual void guna2ImageButton1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        public virtual void guna2TextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        public void label1_Click_1(object sender, EventArgs e)
+        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
