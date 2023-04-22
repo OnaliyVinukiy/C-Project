@@ -1,0 +1,13 @@
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C-Project\RM System\RM System\bin\Debug\RM System.exe.config
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C-Project\RM System\RM System\bin\Debug\RM System.exe
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C-Project\RM System\RM System\bin\Debug\RM System.pdb
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C-Project\RM System\RM System\obj\Debug\RM System.csproj.AssemblyReference.cache
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C-Project\RM System\RM System\obj\Debug\RM System.csproj.SuggestedBindingRedirects.cache
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C-Project\RM System\RM System\obj\Debug\RM_System.formLogin.resources
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C-Project\RM System\RM System\obj\Debug\RM_System.Properties.Resources.resources
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C-Project\RM System\RM System\obj\Debug\RM System.csproj.GenerateResource.cache
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C-Project\RM System\RM System\obj\Debug\RM System.csproj.CoreCompileInputs.cache
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C-Project\RM System\RM System\obj\Debug\RM System.exe
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C-Project\RM System\RM System\obj\Debug\RM System.pdb
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C-Project\RM System\RM System\bin\Debug\Guna.UI2.dll
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C-Project\RM System\RM System\obj\Debug\RM System.csproj.CopyComplete
