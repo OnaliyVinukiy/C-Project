@@ -1,5 +1,6 @@
 C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\bin\Debug\RM.exe.config
 C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\bin\Debug\RM.exe
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\bin\Debug\RM.pdb
 C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\bin\Debug\Guna.UI2.dll
 C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\obj\Debug\RM.csproj.AssemblyReference.cache
 C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\obj\Debug\RM.csproj.SuggestedBindingRedirects.cache

@@ -11,7 +11,7 @@ namespace RM
 {
     internal class MainClass
     {
-        public static readonly string con_string = "Data Source=LAPTOP-AHHL9HD4;Initial Catalog=RM;User ID=pro;Password=pro123;";
+        public static readonly string con_string = "Data Source=LAPTOP-AHHL9HD4;Initial Catalog=RM;Integrated Security=True;";
 
 
         public static SqlConnection con = new SqlConnection(con_string);
