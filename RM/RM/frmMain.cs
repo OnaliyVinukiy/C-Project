@@ -24,7 +24,7 @@ namespace RM
 
         private void label1_Click(object sender, EventArgs e)
         {
-
+           
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)
@@ -40,6 +40,16 @@ namespace RM
         private void guna2Panel2_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void IblUser_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+            lblUser.Text = MainClass.USER;
         }
     }
 }

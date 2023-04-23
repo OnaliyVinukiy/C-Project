@@ -40,10 +40,10 @@
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            this.lblUser = new System.Windows.Forms.Label();
             this.guna2ControlBox3 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.btnexit = new Guna.UI2.WinForms.Guna2ControlBox();
-            this.IblUser = new System.Windows.Forms.Label();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.guna2Panel3.SuspendLayout();
@@ -155,7 +155,6 @@
             this.guna2Button4.Size = new System.Drawing.Size(217, 55);
             this.guna2Button4.TabIndex = 0;
             this.guna2Button4.Text = "POS";
-            this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
             // 
             // guna2Button3
             // 
@@ -223,7 +222,6 @@
             this.guna2Button1.Size = new System.Drawing.Size(217, 55);
             this.guna2Button1.TabIndex = 0;
             this.guna2Button1.Text = "Home";
-            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // label1
             // 
@@ -247,7 +245,6 @@
             this.guna2CirclePictureBox1.Size = new System.Drawing.Size(81, 71);
             this.guna2CirclePictureBox1.TabIndex = 1;
             this.guna2CirclePictureBox1.TabStop = false;
-            this.guna2CirclePictureBox1.Click += new System.EventHandler(this.guna2CirclePictureBox1_Click);
             // 
             // guna2Panel2
             // 
@@ -261,7 +258,7 @@
             // 
             // guna2Panel3
             // 
-            this.guna2Panel3.Controls.Add(this.IblUser);
+            this.guna2Panel3.Controls.Add(this.lblUser);
             this.guna2Panel3.Controls.Add(this.guna2ControlBox3);
             this.guna2Panel3.Controls.Add(this.guna2ControlBox2);
             this.guna2Panel3.Controls.Add(this.btnexit);
@@ -271,6 +268,18 @@
             this.guna2Panel3.Name = "guna2Panel3";
             this.guna2Panel3.Size = new System.Drawing.Size(1172, 55);
             this.guna2Panel3.TabIndex = 1;
+            // 
+            // lblUser
+            // 
+            this.lblUser.AutoSize = true;
+            this.lblUser.BackColor = System.Drawing.Color.Transparent;
+            this.lblUser.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUser.Location = new System.Drawing.Point(21, 18);
+            this.lblUser.Name = "lblUser";
+            this.lblUser.Size = new System.Drawing.Size(65, 28);
+            this.lblUser.TabIndex = 0;
+            this.lblUser.Text = "label2";
+            this.lblUser.Click += new System.EventHandler(this.IblUser_Click);
             // 
             // guna2ControlBox3
             // 
@@ -308,18 +317,6 @@
             this.btnexit.TabIndex = 0;
             this.btnexit.Click += new System.EventHandler(this.guna2ControlBox1_Click);
             // 
-            // IblUser
-            // 
-            this.IblUser.AutoSize = true;
-            this.IblUser.BackColor = System.Drawing.Color.Transparent;
-            this.IblUser.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.IblUser.Location = new System.Drawing.Point(21, 18);
-            this.IblUser.Name = "IblUser";
-            this.IblUser.Size = new System.Drawing.Size(65, 28);
-            this.IblUser.TabIndex = 0;
-            this.IblUser.Text = "label2";
-            this.IblUser.Click += new System.EventHandler(this.IblUser_Click);
-            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 23F);
@@ -335,7 +332,7 @@
             this.Name = "frmMain";
             this.Text = "frmMain";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.IblUser_Click);
+            this.Load += new System.EventHandler(this.frmMain_Load);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
@@ -362,6 +359,6 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button3;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private System.Windows.Forms.Label IblUser;
+        private System.Windows.Forms.Label lblUser;
     }
 }

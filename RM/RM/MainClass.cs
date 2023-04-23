@@ -33,9 +33,17 @@ namespace RM
                 if (dt.Rows.Count > 0)
                 {
                     IsValid = true;
+                    user = dt.Rows[0]["uName"].ToString();
                 }
             }
             return IsValid;
+        }
+        public static string user;
+        public static string USER
+        {
+            get { return user; }
+            private set { user = value; }
+
         }
     }
 }
