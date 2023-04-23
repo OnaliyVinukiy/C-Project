@@ -11,6 +11,11 @@ C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Pro
 C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\obj\Debug\RM.csproj.CopyComplete
 C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\obj\Debug\RM.exe
 C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\obj\Debug\RM.pdb
+<<<<<<< HEAD
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\obj\Debug\RM.SampleAdd.resources
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\obj\Debug\RM.SampleView.resources
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\obj\Debug\RM.View.CategoryView.resources
+=======
 C:\Users\Acer\OneDrive - NSBM\Third Sem\C-Project\RM\RM\bin\Debug\RM.exe.config
 C:\Users\Acer\OneDrive - NSBM\Third Sem\C-Project\RM\RM\bin\Debug\RM.exe
 C:\Users\Acer\OneDrive - NSBM\Third Sem\C-Project\RM\RM\bin\Debug\RM.pdb
@@ -25,3 +30,28 @@ C:\Users\Acer\OneDrive - NSBM\Third Sem\C-Project\RM\RM\obj\Debug\RM.csproj.Copy
 C:\Users\Acer\OneDrive - NSBM\Third Sem\C-Project\RM\RM\obj\Debug\RM.exe
 C:\Users\Acer\OneDrive - NSBM\Third Sem\C-Project\RM\RM\obj\Debug\RM.pdb
 C:\Users\Acer\OneDrive - NSBM\Third Sem\C-Project\RM\RM\obj\Debug\RM.frmMain.resources
+>>>>>>> 4384b97c6cfb78e7fd93fc6115a597af3aa933e8
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\bin\Debug\AdonisUI.dll
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\bin\Debug\FirstFloor.ModernUI.dll
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\bin\Debug\JetBrains.Annotations.dll
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\bin\Debug\System.Buffers.dll
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\bin\Debug\System.Memory.dll
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\bin\Debug\System.Reactive.dll
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\bin\Debug\System.ValueTuple.dll
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\bin\Debug\AdonisUI.xml
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\bin\Debug\ComponentFactory.Krypton.Toolkit.pdb
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\bin\Debug\FirstFloor.ModernUI.xml
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\bin\Debug\JetBrains.Annotations.xml
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\bin\Debug\System.Buffers.xml
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\bin\Debug\System.Memory.xml
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\bin\Debug\System.Reactive.xml
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\bin\Debug\System.ValueTuple.xml
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\obj\Debug\RM.frmMain.resources
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\obj\Debug\RM.View.frmCategoryView.resources

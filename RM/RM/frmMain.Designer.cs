@@ -155,6 +155,7 @@
             this.guna2Button4.Size = new System.Drawing.Size(217, 55);
             this.guna2Button4.TabIndex = 0;
             this.guna2Button4.Text = "POS";
+            this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
             // 
             // guna2Button3
             // 
@@ -222,6 +223,7 @@
             this.guna2Button1.Size = new System.Drawing.Size(217, 55);
             this.guna2Button1.TabIndex = 0;
             this.guna2Button1.Text = "Home";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // label1
             // 
@@ -245,6 +247,7 @@
             this.guna2CirclePictureBox1.Size = new System.Drawing.Size(81, 71);
             this.guna2CirclePictureBox1.TabIndex = 1;
             this.guna2CirclePictureBox1.TabStop = false;
+            this.guna2CirclePictureBox1.Click += new System.EventHandler(this.guna2CirclePictureBox1_Click);
             // 
             // guna2Panel2
             // 
@@ -254,6 +257,7 @@
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.Size = new System.Drawing.Size(1172, 741);
             this.guna2Panel2.TabIndex = 1;
+            this.guna2Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel2_Paint);
             // 
             // guna2Panel3
             // 
@@ -314,6 +318,7 @@
             this.IblUser.Size = new System.Drawing.Size(65, 28);
             this.IblUser.TabIndex = 0;
             this.IblUser.Text = "label2";
+            this.IblUser.Click += new System.EventHandler(this.IblUser_Click);
             // 
             // frmMain
             // 
@@ -330,6 +335,7 @@
             this.Name = "frmMain";
             this.Text = "frmMain";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.IblUser_Click);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
