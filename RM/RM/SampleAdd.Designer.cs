@@ -142,6 +142,7 @@
             this.Name = "SampleAdd";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SampleAdd";
+            this.Load += new System.EventHandler(this.SampleAdd_Load);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
@@ -153,10 +154,10 @@
         #endregion
 
         public Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        public Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         public Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
         public System.Windows.Forms.Label label1;
         public Guna.UI2.WinForms.Guna2Button btnClose;
         public Guna.UI2.WinForms.Guna2Button btnSave;
+        protected Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
     }
 }

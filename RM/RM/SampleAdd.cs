@@ -32,12 +32,17 @@ namespace RM
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        public virtual void label1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        public virtual void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        public virtual void SampleAdd_Load(object sender, EventArgs e)
         {
 
         }

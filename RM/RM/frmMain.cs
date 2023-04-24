@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RM.View;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,16 @@ namespace RM
         public frmMain()
         {
             InitializeComponent();
+        }
+        //method to add control in form
+        public void AddControls(Form f)
+        {
+            ControlPanel.Controls.Clear();
+            f.Dock= DockStyle.Fill;
+            f.TopLevel = false;
+            ControlPanel.Controls.Add(f);
+            f.Show();
+
         }
 
         private void guna2ControlBox1_Click(object sender, EventArgs e)
@@ -50,6 +61,21 @@ namespace RM
         private void frmMain_Load(object sender, EventArgs e)
         {
             lblUser.Text = MainClass.USER;
+        }
+
+        private void guna2Button2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+            AddControls(new frmHome());
+        }
+
+        private void btncategory_Click(object sender, EventArgs e)
+        {
+            AddControls(new frmCategoryView());
         }
     }
 }
