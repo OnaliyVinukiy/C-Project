@@ -327,6 +327,7 @@
             this.ControlPanel.Name = "ControlPanel";
             this.ControlPanel.Size = new System.Drawing.Size(1172, 715);
             this.ControlPanel.TabIndex = 1;
+            this.ControlPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.ControlPanel_Paint);
             // 
             // guna2Panel3
             // 

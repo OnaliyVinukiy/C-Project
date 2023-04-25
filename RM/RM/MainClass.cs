@@ -137,6 +137,18 @@ namespace RM
 
             }
         }
+        public static void CBFill (string query,ComboBox cb)
+        {
+            SqlCommand cmd= new SqlCommand(query,con);
+            cmd.CommandType = CommandType.Text;
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            cb.DisplayMember = "Name";
+            cb.ValueMember = "id";
+            cb.DataSource = dt;
+            cb.SelectedIndex = -1;
 
+        }
     }
 }

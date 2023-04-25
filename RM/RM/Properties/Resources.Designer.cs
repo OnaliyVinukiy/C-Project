@@ -123,6 +123,26 @@ namespace RM.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_food_bar_1000 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-food-bar-1000", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_food_bar_10001 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-food-bar-10001", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_home_1000 {
             get {
                 object obj = ResourceManager.GetObject("icons8-home-1000", resourceCulture);
@@ -166,6 +186,16 @@ namespace RM.Properties {
         internal static System.Drawing.Bitmap icons8_medium_priority_1000__1_ {
             get {
                 object obj = ResourceManager.GetObject("icons8-medium-priority-1000 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_mushbooh_food_1000 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-mushbooh-food-1000", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

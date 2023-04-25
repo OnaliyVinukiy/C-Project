@@ -70,7 +70,7 @@ namespace RM
 
         private void guna2Button2_Click_1(object sender, EventArgs e)
         {
-
+            AddControls(new frmProductView());
         }
 
         private void btnHome_Click(object sender, EventArgs e)
@@ -86,6 +86,11 @@ namespace RM
         private void btnStaff_Click(object sender, EventArgs e)
         {
             AddControls(new frmstaffView());
+        }
+
+        private void ControlPanel_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
