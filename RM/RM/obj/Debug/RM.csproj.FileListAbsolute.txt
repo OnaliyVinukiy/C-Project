@@ -35,3 +35,5 @@ C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Pro
 C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\obj\Debug\RM.csproj.CopyComplete
 C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\obj\Debug\RM.exe
 C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\obj\Debug\RM.pdb
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\obj\Debug\RM.Model.frmStaffAdd.resources
+C:\Users\Onaliy Vinukiy\OneDrive - NSBM\First Year\Third Sem\C#\C# Project\C-Project\RM\RM\obj\Debug\RM.View.frmstaffView.resources

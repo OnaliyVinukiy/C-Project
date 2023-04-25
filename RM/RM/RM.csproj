@@ -126,6 +126,12 @@
     <Compile Include="Model\frmCategoryAdd.Designer.cs">
       <DependentUpon>frmCategoryAdd.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model\frmStaffAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Model\frmStaffAdd.Designer.cs">
+      <DependentUpon>frmStaffAdd.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SampleAdd.cs">
@@ -146,6 +152,12 @@
     <Compile Include="SampleView.Designer.cs">
       <DependentUpon>SampleView.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\frmstaffView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\frmstaffView.Designer.cs">
+      <DependentUpon>frmstaffView.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Add.resx">
       <DependentUpon>Add.cs</DependentUpon>
     </EmbeddedResource>
@@ -160,6 +172,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Model\frmCategoryAdd.resx">
       <DependentUpon>frmCategoryAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Model\frmStaffAdd.resx">
+      <DependentUpon>frmStaffAdd.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -179,6 +194,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SampleView.resx">
       <DependentUpon>SampleView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\frmstaffView.resx">
+      <DependentUpon>frmstaffView.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -240,7 +258,7 @@
     <None Include="Resources\icons8-pos-terminal-1000 %281%29.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="View\" />
+    <None Include="Resources\icons8-name-tag-1000.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-plus-1000.png" />

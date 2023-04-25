@@ -160,6 +160,7 @@
             this.btnStaff.Text = "Staff";
             this.btnStaff.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnStaff.TextOffset = new System.Drawing.Point(20, 0);
+            this.btnStaff.Click += new System.EventHandler(this.btnStaff_Click);
             // 
             // btnCounter
             // 
@@ -326,7 +327,6 @@
             this.ControlPanel.Name = "ControlPanel";
             this.ControlPanel.Size = new System.Drawing.Size(1172, 715);
             this.ControlPanel.TabIndex = 1;
-           
             // 
             // guna2Panel3
             // 

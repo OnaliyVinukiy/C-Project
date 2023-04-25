@@ -82,5 +82,10 @@ namespace RM
         {
             AddControls(new frmCategoryView());
         }
+
+        private void btnStaff_Click(object sender, EventArgs e)
+        {
+            AddControls(new frmstaffView());
+        }
     }
 }

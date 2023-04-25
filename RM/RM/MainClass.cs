@@ -36,7 +36,7 @@ namespace RM
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
                 da.Fill(dt);
                 if (dt.Rows.Count > 0)
-                {
+                {  
                     IsValid = true;
                     user = dt.Rows[0]["uName"].ToString();
                 }

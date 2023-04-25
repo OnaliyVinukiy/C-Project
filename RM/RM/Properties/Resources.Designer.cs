@@ -173,6 +173,16 @@ namespace RM.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_name_tag_1000 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-name-tag-1000", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_plus_1000 {
             get {
                 object obj = ResourceManager.GetObject("icons8-plus-1000", resourceCulture);
