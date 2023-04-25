@@ -17,6 +17,13 @@ namespace RM
         {
             InitializeComponent();
         }
+        //for accessing frm main
+        static frmMain _obj;
+        public static frmMain Instance
+        {
+            get { if (_obj == null) { _obj = new frmMain(); } return _obj; }
+
+        }
         //method to add control in form
         public void AddControls(Form f)
         {
@@ -48,10 +55,7 @@ namespace RM
 
         }
 
-        private void guna2Panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
+        
 
         private void IblUser_Click(object sender, EventArgs e)
         {
@@ -61,6 +65,7 @@ namespace RM
         private void frmMain_Load(object sender, EventArgs e)
         {
             lblUser.Text = MainClass.USER;
+            _obj = this;
         }
 
         private void guna2Button2_Click_1(object sender, EventArgs e)

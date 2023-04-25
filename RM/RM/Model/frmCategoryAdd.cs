@@ -42,7 +42,7 @@ namespace RM.Model
             ht.Add("@Name", txtName.Text);
             if (MainClass.SQL(query, ht)>0)
             {
-                MessageBox.Show("Saved Successfully...");
+                guna2MessageDialog1.Show("Saved Successfully...");
                 id = 0;
                 txtName.Text = "";
                 txtName.Focus();

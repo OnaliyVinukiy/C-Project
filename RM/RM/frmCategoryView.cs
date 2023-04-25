@@ -39,8 +39,9 @@ namespace RM.View
 
         private void btnAdd_Click_1(object sender, EventArgs e)
         {
-            frmCategoryAdd frm = new frmCategoryAdd();
-            frm.ShowDialog();
+            MainClass.BlurBackground(new frmCategoryAdd());
+            //frmCategoryAdd frm = new frmCategoryAdd();
+            //frm.ShowDialog();
             GetData();
         }
 
@@ -58,7 +59,7 @@ namespace RM.View
                 frmCategoryAdd frm = new frmCategoryAdd();
                 frm.id = Convert.ToInt32(guna2DataGridView1.CurrentRow.Cells["dgvid"].Value);
                 frm.txtName.Text = Convert.ToString(guna2DataGridView1.CurrentRow.Cells["dgvName"].Value);
-                frm.ShowDialog();
+                MainClass.BlurBackground(frm);
                 GetData();
                 
                 
