@@ -10,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Media.TextFormatting;
 using System.Xml.Linq;
 
 namespace RM.Model
@@ -29,7 +30,7 @@ namespace RM.Model
         private void btnBrowse_Click(object sender, EventArgs e)
         {
             OpenFileDialog ofd = new OpenFileDialog();
-            ofd.Filter = "Images (.png,.jpg)|* .png; * .jpg";
+            ofd.Filter = "Images (.png,.jpg,.jpeg)|* .png; * .jpg;*.jpeg";
             if(ofd.ShowDialog() == DialogResult.OK ) 
             { 
                 filePath = ofd.FileName;
@@ -47,6 +48,10 @@ namespace RM.Model
             if (cID>0) //for update
             {
                 cbCat.SelectedValue = cID;
+            }
+            if (id>0)
+            {
+                ForUpdateLoadData();
             }
         }
 
@@ -78,11 +83,14 @@ namespace RM.Model
             {
                 guna2MessageDialog1.Show("Saved Successfully...");
                 id = 0;
+                cID = 0;
                 txtName.Text = "";
                 txtPrice.Text = "";
                 cbCat.SelectedIndex = -1;
+                cbCat.SelectedIndex = 0;
                 txtImage.Image = RM.Properties.Resources.icons8_food_bar_1000;
                 txtName.Focus();
+                this.Close();
 
             }
         }
@@ -96,6 +104,17 @@ namespace RM.Model
             string query = @"Select * from products where pID=" + id + "";
             SqlCommand cmd = new SqlCommand(query, MainClass.con);
             SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            if (dt.Rows.Count>0)
+            {
+                txtName.Text = dt.Rows[0]["pName"].ToString();
+                txtPrice.Text = dt.Rows[0]["pPrice"].ToString();
+
+                byte[] imageArray =(byte[]) (dt.Rows[0]["pImage"]);
+                byte[] imageByteArray = imageArray;
+                txtImage.Image=Image.FromStream(new MemoryStream(imageArray));
+            }
         }
     }
 }

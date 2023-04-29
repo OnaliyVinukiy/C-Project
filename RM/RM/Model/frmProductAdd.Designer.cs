@@ -30,11 +30,11 @@
         {
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.btnClose = new Guna.UI2.WinForms.Guna2Button();
             this.btnSave = new Guna.UI2.WinForms.Guna2Button();
             this.guna2MessageDialog1 = new Guna.UI2.WinForms.Guna2MessageDialog();
-            this.cbCat = new Guna.UI2.WinForms.Guna2ComboBox();
             this.txtPrice = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtName = new Guna.UI2.WinForms.Guna2TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -43,12 +43,12 @@
             this.btnBrowse = new Guna.UI2.WinForms.Guna2Button();
             this.txtImage = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.cbCat = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2Panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txtImage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Panel1
@@ -72,6 +72,19 @@
             this.label1.Size = new System.Drawing.Size(146, 32);
             this.label1.TabIndex = 0;
             this.label1.Text = "Add Product";
+            // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox1.Image = global::RM.Properties.Resources.icons8_mushbooh_food_1000;
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(50, 37);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(102, 91);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox1.TabIndex = 2;
+            this.guna2PictureBox1.TabStop = false;
+            this.guna2PictureBox1.UseTransparentBackground = true;
             // 
             // guna2Panel2
             // 
@@ -132,25 +145,6 @@
             this.guna2MessageDialog1.Parent = null;
             this.guna2MessageDialog1.Style = Guna.UI2.WinForms.MessageDialogStyle.Light;
             this.guna2MessageDialog1.Text = null;
-            // 
-            // cbCat
-            // 
-            this.cbCat.BackColor = System.Drawing.Color.Transparent;
-            this.cbCat.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cbCat.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbCat.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cbCat.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cbCat.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.cbCat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.cbCat.ItemHeight = 30;
-            this.cbCat.Items.AddRange(new object[] {
-            "Cake",
-            "Bread",
-            "Biscuit"});
-            this.cbCat.Location = new System.Drawing.Point(79, 352);
-            this.cbCat.Name = "cbCat";
-            this.cbCat.Size = new System.Drawing.Size(336, 36);
-            this.cbCat.TabIndex = 10;
             // 
             // txtPrice
             // 
@@ -259,28 +253,34 @@
             this.guna2CirclePictureBox2.TabIndex = 15;
             this.guna2CirclePictureBox2.TabStop = false;
             // 
-            // guna2PictureBox1
+            // cbCat
             // 
-            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox1.Image = global::RM.Properties.Resources.icons8_mushbooh_food_1000;
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(50, 37);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(102, 91);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox1.TabIndex = 2;
-            this.guna2PictureBox1.TabStop = false;
-            this.guna2PictureBox1.UseTransparentBackground = true;
+            this.cbCat.BackColor = System.Drawing.Color.Transparent;
+            this.cbCat.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cbCat.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbCat.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbCat.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbCat.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cbCat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cbCat.ItemHeight = 30;
+            this.cbCat.Items.AddRange(new object[] {
+            "Cake",
+            "Biscuit",
+            "Bread"});
+            this.cbCat.Location = new System.Drawing.Point(79, 365);
+            this.cbCat.Name = "cbCat";
+            this.cbCat.Size = new System.Drawing.Size(336, 36);
+            this.cbCat.TabIndex = 18;
             // 
             // frmProductAdd
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1063, 644);
+            this.Controls.Add(this.cbCat);
             this.Controls.Add(this.txtImage);
             this.Controls.Add(this.btnBrowse);
             this.Controls.Add(this.guna2CirclePictureBox2);
-            this.Controls.Add(this.cbCat);
             this.Controls.Add(this.txtPrice);
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.label4);
@@ -296,10 +296,10 @@
             this.Load += new System.EventHandler(this.frmProductAdd_Load);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.guna2Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.txtImage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -314,7 +314,6 @@
         public Guna.UI2.WinForms.Guna2Button btnClose;
         public Guna.UI2.WinForms.Guna2Button btnSave;
         private Guna.UI2.WinForms.Guna2MessageDialog guna2MessageDialog1;
-        public Guna.UI2.WinForms.Guna2ComboBox cbCat;
         public Guna.UI2.WinForms.Guna2TextBox txtPrice;
         public Guna.UI2.WinForms.Guna2TextBox txtName;
         private System.Windows.Forms.Label label4;
@@ -323,5 +322,6 @@
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox2;
         private Guna.UI2.WinForms.Guna2Button btnBrowse;
         private Guna.UI2.WinForms.Guna2PictureBox txtImage;
+        public Guna.UI2.WinForms.Guna2ComboBox cbCat;
     }
 }

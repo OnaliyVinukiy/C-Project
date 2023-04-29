@@ -54,6 +54,7 @@ namespace RM.Model
                 txtPhone.Text = "";
                 cbRole.SelectedIndex = -1;
                 txtName.Focus();
+                this.Close();
 
             }
         }

@@ -34,18 +34,7 @@ namespace RM.View
             lb.Items.Add(dgvcat);
             MainClass.LoadData(query, guna2DataGridView1, lb);
         }
-        public void txtSearch_TextChanged(object sender, EventArgs e)
-        {
-            GetData();
-        }
-
-
-
-
-       
-        
-
-        
+  
         
 
         private void frmCategoryView_Load_1(object sender, EventArgs e)
@@ -61,6 +50,7 @@ namespace RM.View
 
                 frmProductAdd frm = new frmProductAdd();
                 frm.id = Convert.ToInt32(guna2DataGridView1.CurrentRow.Cells["dgvid"].Value);
+                frm.cID = Convert.ToInt32(guna2DataGridView1.CurrentRow.Cells["dgvcatID"].Value);
                 frm.txtName.Text = Convert.ToString(guna2DataGridView1.CurrentRow.Cells["dgvName"].Value);
                 frm.txtPrice.Text = Convert.ToString(guna2DataGridView1.CurrentRow.Cells["dgvprice"].Value);
                 frm.cbCat.Text = Convert.ToString(guna2DataGridView1.CurrentRow.Cells["dgvcat"].Value);
@@ -111,6 +101,11 @@ namespace RM.View
         private void guna2DataGridView1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void txtSearch_TextChanged_1(object sender, EventArgs e)
+        {
+            GetData();
         }
     }
 }

@@ -46,6 +46,7 @@ namespace RM.Model
                 id = 0;
                 txtName.Text = "";
                 txtName.Focus();
+                this.Close();
 
             }
 

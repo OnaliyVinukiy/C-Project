@@ -14,7 +14,7 @@ using System.Windows.Forms;
 
 namespace RM.View
 {
-    public partial class frmCategoryView : Form
+    public partial class frmCategoryView :Form
     {
         public frmCategoryView()
         {
@@ -31,11 +31,7 @@ namespace RM.View
             MainClass.LoadData(query, guna2DataGridView1, lb);
         }
        
-        public  void txtSearch_TextChanged(object sender, EventArgs e)
-        {
-            GetData();
-        }
-        
+       
 
         private void btnAdd_Click_1(object sender, EventArgs e)
         {
@@ -86,6 +82,11 @@ namespace RM.View
         }
 
         private void frmCategoryView_Load_1(object sender, EventArgs e)
+        {
+            GetData();
+        }
+
+        private void txtSearch_TextChanged_1(object sender, EventArgs e)
         {
             GetData();
         }

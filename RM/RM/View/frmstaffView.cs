@@ -33,12 +33,7 @@ namespace RM.View
             lb.Items.Add(dgvRole);
             MainClass.LoadData(query, guna2DataGridView1, lb);
         }
-        public void txtSearch_TextChanged(object sender, EventArgs e)
-        {
-            GetData();
-        }
-
-
+       
         
 
         private void guna2DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -130,6 +125,11 @@ namespace RM.View
             MainClass.BlurBackground(new frmStaffAdd());
             //frmCategoryAdd frm = new frmCategoryAdd();
             //frm.ShowDialog();
+            GetData();
+        }
+
+        private void txtSearch_TextChanged_1(object sender, EventArgs e)
+        {
             GetData();
         }
     }
