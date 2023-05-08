@@ -64,9 +64,9 @@
             this.lblHeader.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHeader.Location = new System.Drawing.Point(31, 40);
             this.lblHeader.Name = "lblHeader";
-            this.lblHeader.Size = new System.Drawing.Size(138, 32);
+            this.lblHeader.Size = new System.Drawing.Size(152, 32);
             this.lblHeader.TabIndex = 3;
-            this.lblHeader.Text = "Header text";
+            this.lblHeader.Text = "Category List";
             // 
             // guna2Separator1
             // 

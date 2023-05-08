@@ -42,13 +42,11 @@
             this.label5 = new System.Windows.Forms.Label();
             this.btnBrowse = new Guna.UI2.WinForms.Guna2Button();
             this.txtImage = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.cbCat = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txtImage)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Panel1
@@ -225,7 +223,7 @@
             this.btnBrowse.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnBrowse.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBrowse.ForeColor = System.Drawing.Color.White;
-            this.btnBrowse.Location = new System.Drawing.Point(630, 382);
+            this.btnBrowse.Location = new System.Drawing.Point(680, 408);
             this.btnBrowse.Name = "btnBrowse";
             this.btnBrowse.Size = new System.Drawing.Size(162, 52);
             this.btnBrowse.TabIndex = 16;
@@ -236,22 +234,12 @@
             // 
             this.txtImage.Image = global::RM.Properties.Resources.icons8_food_bar_10001;
             this.txtImage.ImageRotate = 0F;
-            this.txtImage.Location = new System.Drawing.Point(471, 326);
+            this.txtImage.Location = new System.Drawing.Point(456, 326);
             this.txtImage.Name = "txtImage";
-            this.txtImage.Size = new System.Drawing.Size(129, 117);
+            this.txtImage.Size = new System.Drawing.Size(191, 187);
             this.txtImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.txtImage.TabIndex = 17;
             this.txtImage.TabStop = false;
-            // 
-            // guna2CirclePictureBox2
-            // 
-            this.guna2CirclePictureBox2.ImageRotate = 0F;
-            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(738, 422);
-            this.guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
-            this.guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(8, 21);
-            this.guna2CirclePictureBox2.TabIndex = 15;
-            this.guna2CirclePictureBox2.TabStop = false;
             // 
             // cbCat
             // 
@@ -280,7 +268,6 @@
             this.Controls.Add(this.cbCat);
             this.Controls.Add(this.txtImage);
             this.Controls.Add(this.btnBrowse);
-            this.Controls.Add(this.guna2CirclePictureBox2);
             this.Controls.Add(this.txtPrice);
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.label4);
@@ -299,7 +286,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.guna2Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.txtImage)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -319,7 +305,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox2;
         private Guna.UI2.WinForms.Guna2Button btnBrowse;
         private Guna.UI2.WinForms.Guna2PictureBox txtImage;
         public Guna.UI2.WinForms.Guna2ComboBox cbCat;

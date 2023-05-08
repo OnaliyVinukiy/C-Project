@@ -119,12 +119,36 @@
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrint.Designer.cs">
+      <DependentUpon>frmPrint.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainClass.cs" />
+    <Compile Include="Model\frmAddCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Model\frmAddCustomer.Designer.cs">
+      <DependentUpon>frmAddCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\frmBillList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Model\frmBillList.Designer.cs">
+      <DependentUpon>frmBillList.cs</DependentUpon>
+    </Compile>
     <Compile Include="Model\frmCategoryAdd.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Model\frmCategoryAdd.Designer.cs">
       <DependentUpon>frmCategoryAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\frmCheckout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Model\frmCheckout.Designer.cs">
+      <DependentUpon>frmCheckout.cs</DependentUpon>
     </Compile>
     <Compile Include="Model\frmPOS.cs">
       <SubType>Form</SubType>
@@ -150,37 +174,19 @@
     <Compile Include="Model\UserProduct.Designer.cs">
       <DependentUpon>UserProduct.cs</DependentUpon>
     </Compile>
-    <Compile Include="newsmp.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="newsmp.Designer.cs">
-      <DependentUpon>newsmp.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="samp.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="samp.Designer.cs">
-      <DependentUpon>samp.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SampleAdd.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SampleAdd.Designer.cs">
-      <DependentUpon>SampleAdd.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmCategoryView.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmCategoryView.Designer.cs">
       <DependentUpon>frmCategoryView.cs</DependentUpon>
     </Compile>
-    <Compile Include="SampleView.cs">
+    <Compile Include="View\frmCounterView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SampleView.Designer.cs">
-      <DependentUpon>SampleView.cs</DependentUpon>
+    <Compile Include="View\frmCounterView.Designer.cs">
+      <DependentUpon>frmCounterView.cs</DependentUpon>
     </Compile>
     <Compile Include="View\frmProductView.cs">
       <SubType>Form</SubType>
@@ -206,8 +212,20 @@
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmPrint.resx">
+      <DependentUpon>frmPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Model\frmAddCustomer.resx">
+      <DependentUpon>frmAddCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Model\frmBillList.resx">
+      <DependentUpon>frmBillList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Model\frmCategoryAdd.resx">
       <DependentUpon>frmCategoryAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Model\frmCheckout.resx">
+      <DependentUpon>frmCheckout.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Model\frmPOS.resx">
       <DependentUpon>frmPOS.cs</DependentUpon>
@@ -221,9 +239,6 @@
     <EmbeddedResource Include="Model\UserProduct.resx">
       <DependentUpon>UserProduct.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="newsmp.resx">
-      <DependentUpon>newsmp.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -234,17 +249,11 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="samp.resx">
-      <DependentUpon>samp.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SampleAdd.resx">
-      <DependentUpon>SampleAdd.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmCategoryView.resx">
       <DependentUpon>frmCategoryView.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SampleView.resx">
-      <DependentUpon>SampleView.cs</DependentUpon>
+    <EmbeddedResource Include="View\frmCounterView.resx">
+      <DependentUpon>frmCounterView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\frmProductView.resx">
       <DependentUpon>frmProductView.cs</DependentUpon>
@@ -367,6 +376,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\food.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-create-order-1000 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-hold-1000 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-tips-1000 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-mushbooh-food-10001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-food-delivery-1000 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-take-away-food-1000 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-restaurant-table-1000 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-tips-1000 %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-tips-1000 %281%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-bakery-1600.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -45,9 +45,13 @@
             this.guna2ControlBox3 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2ControlBox2 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.btnexit = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
+            this.ControlPanel.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Panel1
@@ -193,6 +197,7 @@
             this.btnCounter.Text = "Counter";
             this.btnCounter.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnCounter.TextOffset = new System.Drawing.Point(20, 0);
+            this.btnCounter.Click += new System.EventHandler(this.btnCounter_Click);
             // 
             // btncategory
             // 
@@ -322,6 +327,8 @@
             // 
             // ControlPanel
             // 
+            this.ControlPanel.Controls.Add(this.label2);
+            this.ControlPanel.Controls.Add(this.guna2PictureBox1);
             this.ControlPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ControlPanel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ControlPanel.Location = new System.Drawing.Point(261, 81);
@@ -391,6 +398,30 @@
             this.btnexit.TabIndex = 0;
             this.btnexit.Click += new System.EventHandler(this.guna2ControlBox1_Click);
             // 
+            // label2
+            // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Comic Sans MS", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.DarkCyan;
+            this.label2.Location = new System.Drawing.Point(364, 81);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(506, 111);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Family Chef";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.Image = global::RM.Properties.Resources.icons8_bakery_1600;
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(332, 195);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(585, 411);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox1.TabIndex = 2;
+            this.guna2PictureBox1.TabStop = false;
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 23F);
@@ -409,8 +440,11 @@
             this.Load += new System.EventHandler(this.frmMain_Load);
             this.guna2Panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
+            this.ControlPanel.ResumeLayout(false);
+            this.ControlPanel.PerformLayout();
             this.guna2Panel3.ResumeLayout(false);
             this.guna2Panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -433,5 +467,7 @@
         private Guna.UI2.WinForms.Guna2Button btnCounter;
         private Guna.UI2.WinForms.Guna2Button btncategory;
         public Guna.UI2.WinForms.Guna2Panel ControlPanel;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
+        public System.Windows.Forms.Label label2;
     }
 }

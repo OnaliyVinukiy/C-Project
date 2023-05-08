@@ -12,6 +12,7 @@ using System.Windows.Forms;
 namespace RM.Model
 {
     public partial class frmCategoryAdd : Form
+
     {
         
 

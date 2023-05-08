@@ -9,6 +9,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web;
 using System.Windows.Forms;
 using System.Windows.Media.TextFormatting;
 using System.Xml.Linq;
@@ -30,15 +31,24 @@ namespace RM.Model
         private void btnBrowse_Click(object sender, EventArgs e)
         {
             OpenFileDialog ofd = new OpenFileDialog();
-            ofd.Filter = "Images (.png,.jpg,.jpeg)|* .png; * .jpg;*.jpeg";
-            if(ofd.ShowDialog() == DialogResult.OK ) 
-            { 
+            ofd.Filter = "Images (.png,.jpg,.jpeg)|*.png;*.jpg;*.jpeg";
+            if (ofd.ShowDialog() == DialogResult.OK)
+            {
                 filePath = ofd.FileName;
-                txtImage.Image= new Bitmap(filePath);
+                txtImage.Image = new Bitmap(filePath);
+
+                if (txtImage.Image.Width > txtImage.Width || txtImage.Image.Height > txtImage.Height)
+                {
+                    txtImage.SizeMode = PictureBoxSizeMode.Zoom;
+                }
+                else
+                {
+                    txtImage.SizeMode = PictureBoxSizeMode.CenterImage;
+                }
             }
         }
-        
-        
+
+
 
         private void frmProductAdd_Load(object sender, EventArgs e)
         {
@@ -70,7 +80,7 @@ namespace RM.Model
             //for image
             Image temp = new Bitmap(txtImage.Image);
             MemoryStream ms = new MemoryStream();
-            temp.Save(ms, System.Drawing.Imaging.ImageFormat.Png);
+            temp.Save(ms, System.Drawing.Imaging.ImageFormat.Jpeg);
             imageByteArray = ms.ToArray();
 
             Hashtable ht = new Hashtable();

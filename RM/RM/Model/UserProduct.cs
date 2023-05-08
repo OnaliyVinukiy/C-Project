@@ -45,6 +45,10 @@ namespace RM.Model
         {
             onSelect?.Invoke(this, e);
         }
-        
+
+        private void txtImage_Click_1(object sender, EventArgs e)
+        {
+            onSelect?.Invoke(this, e);
+        }
     }
 }

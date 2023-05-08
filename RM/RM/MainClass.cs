@@ -9,6 +9,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.UI;
 using System.Windows;
 using System.Windows.Forms;
 
@@ -16,7 +17,10 @@ namespace RM
 {
     internal class MainClass
     {
-        public static readonly string con_string = "Data Source=LAPTOP-AHHL9HD4;Initial Catalog=RM;Integrated Security=True;";
+
+        public static readonly string con_string = "Data Source=LAPTOP-AHHL9HD4;Initial Catalog=RM;User ID=ro;Password=ro123;";
+
+
 
 
         public static SqlConnection con = new SqlConnection(con_string);
@@ -49,6 +53,28 @@ namespace RM
             get { return user; }
             private set { user = value; }
 
+        }
+        public static DataTable ExecuteQuery(string query)
+        {
+            
+            SqlCommand cmd = new SqlCommand(query, con);
+            DataTable dt = new DataTable();
+            try
+            {
+                con.Open();
+                SqlDataReader reader = cmd.ExecuteReader();
+                dt.Load(reader);
+                reader.Close();
+            }
+            catch (Exception ex)
+            {
+                System.Windows.Forms.MessageBox.Show("Error: " + ex.Message);
+            }
+            finally
+            {
+                con.Close();
+            }
+            return dt;
         }
         //method for crud operations
         public static int SQL (String query,Hashtable ht)
@@ -151,4 +177,5 @@ namespace RM
 
         }
     }
+
 }

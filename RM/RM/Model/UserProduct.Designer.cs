@@ -73,6 +73,12 @@
             this.txtImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.txtImage.TabIndex = 0;
             this.txtImage.TabStop = false;
+            this.txtImage.Click += new System.EventHandler(this.txtImage_Click_1);
+            this.txtImage.Image.Dispose();
+
+
+
+
             // 
             // guna2Separator1
             // 
